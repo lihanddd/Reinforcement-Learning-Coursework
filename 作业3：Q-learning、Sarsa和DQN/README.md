@@ -14,7 +14,7 @@
 
 提示：所给样例图片不一定是最终结果
 
-![Q-learning](https://lexue.bit.edu.cn/pluginfile.php/483111/mod_assign/intro/Q-learning.jpg?time=1639376837160)
+![Q-learning](./img/Q-learning.jpg)
 
 **需要提交：**
 
@@ -30,7 +30,7 @@
 
 注意该任务是随机初始化四个障碍和目的地，如果出现路径不存在的情况，请重新运行。最终的运行结果如下所示：
 
-![演示结果](https://lexue.bit.edu.cn/pluginfile.php/483111/mod_assign/intro/%E6%BC%94%E7%A4%BA%E7%BB%93%E6%9E%9C.PNG)
+![演示结果](./img/演示结果.png)
 
 **结果解释**：左侧红色表示障碍，绿色表示目的地。右侧是V值的一个可视化界面，偏向绿色表示该状态离目标状态较为接近。
 
@@ -46,7 +46,7 @@
 
 本部分需要使用DQN模型来玩Flappy bird游戏，我们给出tensorflow和Pytorch两个版本实现的原始DQN，以供参考。同学们需要修改代码，加上Target Network，比较改变前后模型的性能，具体体现为训练过程中奖励值的变化，如下所示：
 
-![result](https://lexue.bit.edu.cn/pluginfile.php/483111/mod_assign/intro/result.jpg?time=1639565062981)
+![result](./img/result.jpg)
 
 **文件说明：**
 

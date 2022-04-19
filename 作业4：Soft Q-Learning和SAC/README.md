@@ -36,12 +36,12 @@ game_show.py：可以调用DQN、SQL和SAC进行训练，然后看最终模型�
 
 test.py的运行结果如下所示，最终提交时需要再添加不带有Target Network的DQN模型的曲线：
 
-![img](https://lexue.bit.edu.cn/pluginfile.php/484293/mod_assign/intro/compare.png)
+![img](./img/compare.png)
 
 test_SQL.py的运行结果如下所示：
 
-![img](https://lexue.bit.edu.cn/pluginfile.php/484293/mod_assign/intro/SQL_lambda.png)
+![img](./img/SQL_lambda.png)
 
 test_SAC.py的运行结果如下所示：
 
-![img](https://lexue.bit.edu.cn/pluginfile.php/484293/mod_assign/intro/SAC_lambda.png)
+![img](./img/SAC_lambda.png)

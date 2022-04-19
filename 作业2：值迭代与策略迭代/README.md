@@ -18,17 +18,17 @@ MDP.py中给出了基础框架，同学们需要在该文件中实现值迭代�
 
 TestMDP.py中给出了各个方法简单的测试程序，测试结果示例如下：
 
-![TestMDP结果示例](https://lexue.bit.edu.cn/pluginfile.php/481671/mod_assign/intro/TestMDP%E7%BB%93%E6%9E%9C.PNG)
+![TestMDP结果示例](./img/TestMDP结果.PNG)
 
 TestMDPmaze.py是代码的详细测试程序，进行如下测试：
 
   1.参数tolerance=0.01,值函数的所有状态初始化为0，**值迭代**的结果，样例如下所示：
 
-![值迭代的结果](https://lexue.bit.edu.cn/pluginfile.php/481671/mod_assign/intro/%E5%80%BC%E8%BF%AD%E4%BB%A3%E7%9A%84%E7%BB%93%E6%9E%9C.PNG)
+![值迭代的结果](./img/值迭代的结果.PNG)
 
   2.初始策略中所有状态对应动作全为动作0，**策略迭代**的结果，样例如下所示：
 
-![策略迭代的结果](https://lexue.bit.edu.cn/pluginfile.php/481671/mod_assign/intro/%E7%AD%96%E7%95%A5%E8%BF%AD%E4%BB%A3%E7%9A%84%E7%BB%93%E6%9E%9C.PNG)
+![策略迭代的结果](./img/策略迭代的结果.PNG)
 
   3.参数tolerance=0.01,值函数的所有状态初始化为0，初始策略中所有状态对应动作全为动作0，部分策略评估中迭代次数从1~10，**修改后的策略迭代**的结果。**并且讨论部分策略评估中迭代次数对结果的影响，并将结果与值迭代和策略迭代联系起来**。
 
